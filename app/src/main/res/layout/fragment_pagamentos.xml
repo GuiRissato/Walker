@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_pagamentos"
+    tools:context=".ui.Pagamentos.GalleryFragment" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Saldo atual"
+        android:textColor="#9FC5BC"
+        android:textSize="24dp"
+        android:paddingTop="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/valorSaldo"
+        android:textColor="#000000"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textSize="58sp"
+        />
+
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="114dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text ="R$"
+            android:textColor="#000000"
+            android:textSize="36dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:background="@drawable/input"
+            android:id="@+id/inputValor"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="36dp"
+            android:textColor="#ffffff"
+            android:id="@+id/addButton"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="90dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text ="Digite seu cupom"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Validar Cupom"
+            android:textColor="#FFFF"
+            android:textSize="22dp"
+            android:background="@drawable/button_confirm"/>
+
+
+    </LinearLayout>
+</LinearLayout>

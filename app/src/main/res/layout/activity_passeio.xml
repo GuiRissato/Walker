@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".passeio">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achamos um Walker pra você!"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"/>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="379dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="6dp"
+        app:srcCompat="@drawable/button_confirm" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/elipse"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/iconepessoa"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:id="@+id/lblCidade"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/ratingbar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="5.0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:id="@+id/lblQtdPasseio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="120dp"
+        android:textSize="18sp"
+        android:id="@+id/lblTipoPerfil"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="140dp"
+        android:textSize="18sp"
+        android:id="@+id/lblNomeUsuario"/>
+</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:textSize="25sp"
+        android:text="Valor do Passeio"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="70sp"
+        android:gravity="center"
+        android:id="@+id/lblPreco"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Aceitar Walker"
+        android:background="@drawable/rectbutton"
+        android:backgroundTint="#E78686"
+        android:textSize="20dp"
+        android:id="@+id/btnAceitar"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="50dp"
+        android:text="Procurar Outro"
+        android:background="@drawable/rectbutton"
+        android:backgroundTint="#E78686"
+        android:textSize="20dp"
+        android:id="@+id/btnProcurar"
+        android:textColor="@color/white" />
+
+</LinearLayout>

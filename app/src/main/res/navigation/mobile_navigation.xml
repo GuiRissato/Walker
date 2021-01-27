@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_maps">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.walker.ui.Perfil.HomeFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.walker.ui.Pagamentos.GalleryFragment"
+        android:label="Pagamentos"
+        tools:layout="@layout/fragment_pagamentos" />
+
+
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.walker.ui.MapsFragment"
+        android:label="Mapas"
+        tools:layout="@layout/fragment_maps"/>
+
+
+</navigation>

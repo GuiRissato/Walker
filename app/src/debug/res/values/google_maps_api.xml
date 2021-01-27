@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=71:B6:CA:08:08:3C:D1:2C:3C:5E:1A:BF:DA:34:FB:6D:4D:82:50:EB%3Bcom.example.walker.ui
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.walker.ui
+
+    SHA-1 certificate fingerprint:
+    71:B6:CA:08:08:3C:D1:2C:3C:5E:1A:BF:DA:34:FB:6D:4D:82:50:EB
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAScpZtOpDzn4hS3Ryw7BI0iI3DMvLIW8E</string>
+</resources>
